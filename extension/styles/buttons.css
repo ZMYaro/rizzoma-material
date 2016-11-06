@@ -1,0 +1,401 @@
+/* Buttons */
+:not(.range-menu) > .button,
+a.button-like,
+.account-button,
+.add-block-button,
+.bottom-blip-menu .blip-reply-button,
+.delete-from-wave,
+.manage-participants-form button,
+.mention-recipient-popup button,
+.search-icon,
+.show-more-participants,
+.show-settings-button,
+.task-recipient-popup button,
+.wave-share-button,
+/* Tabs */
+.tabs-container .tab,
+.right-tools-panel .hide-replies,
+.right-tools-panel .show-replies,
+.right-tools-panel .text-view,
+.right-tools-panel .mindmap-view,
+.market-panel-container .market-items-filter,
+/* Menu items */
+.help-menu a,
+.results-list li,
+.role-selector-popup .role label,
+.selectBox-dropdown-menu li a,
+.account-popup .name-variant,
+.account-popup .email-variant,
+.other-blipmenu-container .list-menu-button button,
+.settings-menu a {	
+	-webkit-tap-highlight-color: none !important;
+	background: none !important;
+	box-shadow: none !important;
+	text-shadow: none !important;
+	outline: 0 none !important;
+	border: 0 none !important;
+	font-weight: 500 !important;
+	cursor: pointer !important;
+}
+	
+	/* Buttons only */
+	:not(.range-menu) > .button,
+	a.button-like,
+	.account-button,
+	.add-block-button,
+	.bottom-blip-menu .blip-reply-button,
+	.delete-from-wave,
+	.manage-participants-form button,
+	.mention-recipient-popup button,
+	.search-icon,
+	.show-more-participants,
+	.show-settings-button,
+	.task-recipient-popup button,
+	.wave-share-button {
+		border-radius: 2px !important;
+		text-transform: uppercase !important;
+	}
+	/* Menu items only */
+	.help-menu a,
+	.results-list li,
+	.role-selector-popup .role label,
+	.selectBox-dropdown-menu li a,
+	.account-popup .name-variant,
+	.account-popup .email-variant,
+	.other-blipmenu-container .list-menu-button button,
+	.settings-menu a {
+		padding: 12px 16px !important;
+		font-size: 14px !important;
+		font-weight: normal !important;
+	}
+	
+	/* Light text */
+	.account-button,
+	.add-block-button,
+	.mention-recipient-popup button,
+	.search-icon,
+	.show-more-participants,
+	.show-settings-button,
+	.task-recipient-popup button,
+	.wave-share-button,
+	
+	.market-panel-container .market-items-filter {
+		color: white !important;
+	}
+		.account-button:enabled:hover,
+		.account-button:enabled:focus,
+		.add-block-button:enabled:hover,
+		.add-block-button:enabled:focus,
+		.mention-recipient-popup button:enabled:hover,
+		.mention-recipient-popup button:enabled:focus,
+		.search-icon:hover,
+		.search-icon:focus,
+		.show-more-participants:enabled:hover,
+		.show-more-participants:enabled:focus,
+		.show-settings-button:enabled:hover,
+		.show-settings-button:enabled:focus,
+		.task-recipient-popup button:enabled:hover,
+		.task-recipient-popup button:enabled:focus,
+		.wave-share-button:enabled:hover,
+		.wave-share-button:enabled:focus,
+		
+		.market-panel-container .market-items-filter:hover,
+		.market-panel-container .market-items-filter:focus {
+			background: rgba(255, 255, 255, 0.2) !important;
+		}
+		.account-button:enabled:active,
+		.add-block-button:enabled:active,
+		.mention-recipient-popup button:enabled:active,
+		.search-icon:active,
+		.show-more-participants:enabled:active,
+		.show-settings-button:enabled:active,
+		.task-recipient-popup button:enabled:active,
+		.wave-share-button:enabled:active,
+		
+		.market-panel-container .market-items-filter:active {
+			background: rgba(255, 255, 255, 0.4) !important;
+		}
+	/* Dark text */
+	a.button-like,
+	:not(.range-menu) > .button,
+	.bottom-blip-menu .blip-reply-button,
+	.delete-from-wave,
+	.manage-participants-form button,
+	
+	.tabs-container .tab,
+	.right-tools-panel .hide-replies,
+	.right-tools-panel .show-replies,
+	.right-tools-panel .text-view,
+	.right-tools-panel .mindmap-view,
+	
+	.help-menu a,
+	.results-list li,
+	.role-selector-popup .role label,
+	.selectBox-dropdown-menu li a,
+	.account-popup .name-variant,
+	.account-popup .email-variant,
+	.other-blipmenu-container .list-menu-button button,
+	.settings-menu a {
+		color: black !important;
+	}
+		a.button-like:not(.selectBox-disabled):hover,
+		a.button-like:not(.selectBox-disabled):focus,
+		:not(.range-menu) > .button:enabled:hover,
+		:not(.range-menu) > .button:enabled:focus,
+		.bottom-blip-menu .blip-reply-button:enabled:hover,
+		.bottom-blip-menu .blip-reply-button:enabled:focus,
+		.delete-from-wave:enabled:hover,
+		.delete-from-wave:enabled:focus,
+		.manage-participants-form button:enabled:hover,
+		.manage-participants-form button:enabled:focus,
+		
+		.tabs-container .tab:hover,
+		.tabs-container .tab:focus,
+		.right-tools-panel .hide-replies:hover,
+		.right-tools-panel .hide-replies:focus,
+		.right-tools-panel .show-replies:hover,
+		.right-tools-panel .show-replies:focus,
+		.right-tools-panel .text-view:hover,
+		.right-tools-panel .text-view:focus,
+		.right-tools-panel .mindmap-view:hover,
+		.right-tools-panel .mindmap-view:focus,
+		
+		.help-menu a:hover,
+		.help-menu a:focus,
+		.results-list li:hover,
+		.results-list li:focus,
+		.role-selector-popup .role label:hover,
+		.role-selector-popup .role label:focus,
+		.selectBox-dropdown-menu li a:hover,
+		.selectBox-dropdown-menu li a:focus,
+		.account-popup .name-variant:hover,
+		.account-popup .name-variant:focus,
+		.account-popup .email-variant:hover,
+		.account-popup .email-variant:focus,
+		.other-blipmenu-container .list-menu-button button:hover,
+		.other-blipmenu-container .list-menu-button button:focus,
+		.settings-menu a:hover,
+		.settings-menu a:focus,
+		
+		.add-form .autocomplete-item.acSelect {
+			background: rgba(128, 128, 128, 0.07) !important;
+		}
+		a.button-like:not(.selectBox-disabled):active,
+		:not(.range-menu) > .button:enabled:active,
+		.bottom-blip-menu .blip-reply-button:enabled:active,
+		.delete-from-wave:enabled:active,
+		.manage-participants-form button:enabled:active,
+		
+		.tabs-container .tab:active,
+		.right-tools-panel .hide-replies:active,
+		.right-tools-panel .show-replies:active,
+		.right-tools-panel .text-view:active,
+		.right-tools-panel .mindmap-view:active,
+		
+		.help-menu a:active,
+		.results-list li:active,
+		.role-selector-popup .role label:active,
+		.selectBox-dropdown-menu li a:active,
+		.account-popup .name-variant:active,
+		.account-popup .email-variant:active,
+		.other-blipmenu-container .list-menu-button button:active,
+		.settings-menu a:active,
+		
+		.add-form .autocomplete-item.acSelect:active {
+			background: rgba(128, 128, 128, 0.13) !important;
+		}
+	a.button-like.selectBox-disabled,
+	:not(.range-menu) > .button:disabled,
+	.bottom-blip-menu .blip-reply-button:disabled,
+	.delete-from-wave:disabled,
+	.manage-participants-form button:disabled,
+	.other-blipmenu-container .list-menu-button button:disabled {
+		opacity: 0.3 !important;
+		cursor: default !important;
+		cursor: not-allowed !important;
+	}
+.selectBox-label {
+	background: transparent !important;
+}
+
+/* New wave/wizard button container */
+.new-topic-buttons {
+	border: 0 none transparent !important;
+}
+.common-create-wave-by-wizard:enabled,
+.create-wave-by-wizard:enabled {
+	background: #78bcff !important;
+	border: 0 none !important;
+	width: 56px !important;
+	height: 56px !important;
+	border-radius: 50% !important;
+	margin-left: 2px !important;
+	text-shadow: none !important;
+	box-shadow: rgba(0, 0, 0, 0.2) 0 8px 17px 0, rgba(0, 0, 0, 0.19) 0 6px 20px 0 !important;
+	
+	transition-property: box-shadow;
+	transition-duration: 0.2s;
+	
+	position: relative;
+	z-index: 5;
+}
+	.common-create-wave-by-wizard:enabled:hover,
+	.common-create-wave-by-wizard:enabled:focus,
+	.create-wave-by-wizard:enabled:hover,
+	.create-wave-by-wizard:enabled:focus {
+		background: #81c0ff !important;
+		box-shadow: rgba(0, 0, 0, 0.22) 0 10px 16px 0, rgba(0, 0, 0, 0.19) 0 11px 35px 0 !important;
+	}
+	.common-create-wave-by-wizard:enabled:active,
+	.create-wave-by-wizard:enabled:active {
+		background: #89c4ff !important;
+		box-shadow: rgba(0, 0, 0, 0.24) 0 12px 15px 0, rgba(0, 0, 0, 0.19) 0 17px 50px 0 !important;
+	}
+	.common-create-wave-by-wizard::before,
+	.create-wave-by-wizard::before {
+		content: '+';
+		color: white;
+		font-size: 36px;
+		position: relative;
+		top: 1px;
+	}
+	.common-create-wave-by-wizard div,
+	.create-wave-by-wizard div,
+	.new-topic-buttons .create-wave,
+	.ctm-create-button {
+		display: none !important;
+	}
+
+/* Top-right account button */
+.account-button {
+	background: rgba(255, 255, 255, 0) !important;
+	border-radius: 50% !important;
+	padding: 7px 7px 0 !important;
+	margin-left: 19px !important;
+	margin-top: 4px !important;
+}
+	/* Button drop-down arrow */
+	.account-show-popup {
+		margin-bottom: 0 !important;
+	}
+
+/* Wave panel share button */
+.wave-share-button {
+	padding-left: 32px !important;
+	width: auto !important;
+}
+	.wave-share-button .lock {
+		height: 18px !important;
+		background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAABXCAMAAADPjr43AAAAYFBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////98JRy6AAAAH3RSTlMAwPot5K55gBNWFQgEP7uaciKQhDTv3dOon4tJS7NgO83+ZQAAAR5JREFUSMft0duOgyAQgOFhBqnWA2rVVm077/+Wy4LJqoDJ7tWm8b8wIZ8IAnx2BXVFFGfJLOcIElZlWSGFVcscIJc6rFUCplcVVmE1ESGbkJdw8tWhY195VUSH4UArs/G4mu20ce3f7z6mrr+o/MHB10ZdllQDZ/+1a6ZUlkZsRDbheA0gSba9UJI/c8E+JSm92aO1ujTLEur9VLRa2kGL6VYz7plVndtBx9lWFTeSCxOYclZ7zQ2bkAKacQeOy8CXU2wBZqf+rmBEgoa/kxlq/zQkQTk4TwMniW0nLFLoFrS7BR25pdTd4NnZtudDCEFkHo+nhze+J0lCZB53vu2Q+LJ+k7ZaYwEgbAA51r9RWq81MR3t6nL0RzOchfoCTMEe47zJ9ogAAAAASUVORK5CYII=') !important;
+	}
+
+/* Wave panel gear button container (made to look like a button) */
+.settings-section {
+	margin-top: 0 !important;
+}
+	/* Wave panel gear button */
+	.show-settings-button {
+		margin: -3px !important;
+		padding: 20px !important;
+		border-radius: 50% !important;
+	}
+		.show-settings-button::before {
+			content: '\0022EE';
+			color: white;
+			font-size: 24px;
+			position: relative;
+			left: -3.5px;
+			top: -14px;
+		}
+
+
+/* Search button */
+.search-icon {
+	border-radius: 50% !important;
+    width: 40px !important;
+    height: 40px !important;
+    top: -4px !important;
+	margin-right:-6px !important;
+}
+	.search-icon::before {
+		content:"";
+		position: absolute;
+		top: 10px;
+		left: 10px;
+		width: 20px;
+		height: 20px;
+		background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xNS41IDE0aC0uNzlsLS4yOC0uMjdDMTUuNDEgMTIuNTkgMTYgMTEuMTEgMTYgOS41IDE2IDUuOTEgMTMuMDkgMyA5LjUgM1MzIDUuOTEgMyA5LjUgNS45MSAxNiA5LjUgMTZjMS42MSAwIDMuMDktLjU5IDQuMjMtMS41N2wuMjcuMjh2Ljc5bDUgNC45OUwyMC40OSAxOWwtNC45OS01em0tNiAwQzcuMDEgMTQgNSAxMS45OSA1IDkuNVM3LjAxIDUgOS41IDUgMTQgNy4wMSAxNCA5LjUgMTEuOTkgMTQgOS41IDE0eiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4=);
+		background-repeat: no-repeat;
+		background-size: 20px 20px;
+	}
+		input:focus + .search-icon::before,
+		input:focus + div + .search-icon::before,
+		input:focus + div + div + .search-icon::before {
+			background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDAwMDAwIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xNS41IDE0aC0uNzlsLS4yOC0uMjdDMTUuNDEgMTIuNTkgMTYgMTEuMTEgMTYgOS41IDE2IDUuOTEgMTMuMDkgMyA5LjUgM1MzIDUuOTEgMyA5LjUgNS45MSAxNiA5LjUgMTZjMS42MSAwIDMuMDktLjU5IDQuMjMtMS41N2wuMjcuMjh2Ljc5bDUgNC45OUwyMC40OSAxOWwtNC45OS01em0tNiAwQzcuMDEgMTQgNSAxMS45OSA1IDkuNVM3LjAxIDUgOS41IDUgMTQgNy4wMSAxNCA5LjUgMTEuOTkgMTQgOS41IDE0eiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4=);
+		}
+.clear-search-query-button,
+.show-search-menu-button {
+	-webkit-filter: invert() brightness(2);
+}
+	input:focus + .clear-search-query-button,
+	input:focus + div + .show-search-menu-button {
+		-webkit-filter: none;
+	}
+
+/* Right sidebar buttons */
+.search .global-next-unread,
+.right-tools-panel .next-unread-blip,
+.right-tools-panel .read-all,
+.right-tools-panel .read-all-button,
+.insert-gadget {
+	transition-property: box-shadow;
+	transition-duration: 0.2s;
+}
+	.search .global-next-unread:enabled:not(.disabled):hover,
+	.right-tools-panel .next-unread-blip:enabled:not(.disabled):hover,
+	.right-tools-panel .read-all:not(.disabled):hover,
+	.right-tools-panel .read-all-button:not(.disabled):hover,
+	.insert-gadget:not(.active):hover {
+		box-shadow: rgba(0, 0, 0, 0.26) 0 2px 5px 0, rgba(0, 0, 0, 0.16) 0 2px 10px 0 !important;
+	}
+	.search .global-next-unread:enabled:not(.disabled):active,
+	.right-tools-panel .next-unread-blip:enabled:not(.disabled):active,
+	.right-tools-panel .read-all:not(.disabled):active,
+	.right-tools-panel .read-all-button:not(.disabled):active,
+	.insert-gadget:active,
+	.insert-gadget.active {
+		box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.23), 0 4px 15px 0 rgba(0, 0, 0, 0.175) !important;
+	}
+
+/* Green unread buttons */
+.search .global-next-unread {
+	margin-top: -30px !important;
+	border-radius: 2px !important;
+}
+.search .global-next-unread:enabled:not(.disabled),
+.right-tools-panel .next-unread-blip:enabled:not(.disabled),
+.right-tools-panel .read-all:not(.disabled),
+.right-tools-panel .read-all-button:not(.disabled) {
+	background-color: #a1da3e !important;
+	border: 0 none !important;
+	box-shadow: none !important;
+	outline: none !important;
+}
+	.search .global-next-unread:enabled:not(.disabled):hover,
+	.right-tools-panel .next-unread-blip:enabled:not(.disabled):hover,
+	.right-tools-panel .read-all:not(.disabled):hover,
+	.right-tools-panel .read-all-button:not(.disabled):hover {
+		background-color: #a3dc41 !important;
+	}
+	.search .global-next-unread:enabled:not(.disabled):active,
+	.right-tools-panel .next-unread-blip:enabled:not(.disabled):active,
+	.right-tools-panel .read-all:not(.disabled):active,
+	.right-tools-panel .read-all-button:not(.disabled):active {
+		background-color: #9bd438 !important;
+	}
+
+/* Search box drop-down menus */
+.task-list-query-container .task-filter, .search-query-container .topic-filter {
+	left: 2px !important;
+	top: 2px !important;
+}

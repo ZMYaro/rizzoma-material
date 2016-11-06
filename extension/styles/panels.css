@@ -1,0 +1,286 @@
+/* Remove shadows */
+.navigation-container, .wave-container {
+	box-shadow: none !important;
+}
+/*.wave-container {
+	box-shadow: -1px 0 0 0 rgba(0,0,0,0.1) !important;
+}*/
+
+/* Replace dark gray background */
+body, .tabs-container, .right-tools-panel {
+	background: white !important;
+}
+/* App bar */
+.new-topic-buttons::before,
+.search-header,
+.message-list-header,
+.task-list-header,
+.public-search-header,
+.market-panel-header,
+.resizer,
+.wave-header,
+.account-container {
+	background: #18b0b2 !important;
+	border-bottom: 0 none !important;
+	box-sizing: border-box;
+}
+	.new-topic-buttons::before {
+		content: '';
+		position: absolute;
+		left: -10px;
+		top: -10px;
+		width: 79px;
+		height: 50px;
+		z-index: -1;
+	}
+	/* Fake shadow */
+	.new-topic-buttons::after,
+	.search-header::after,
+	.message-list-header::after,
+	.task-list-header::after,
+	.public-search-header::after,
+	.market-panel-header::after,
+	.resizer::after,
+	.wave-header::after,
+	.account-container::after {
+		content: '';
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 100%;
+		height: 6px;
+		
+		background: linear-gradient(rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.05) 66%, rgba(0, 0, 0, 0) 100%);
+		
+		pointer-events: none;
+		z-index: 0;
+	}
+		.account-container::after {
+			top: 50px;
+		}
+		.new-topic-buttons::after {
+			left: -10px;
+			width: 79px;
+			top: 40px;
+		}
+
+/* Add white search panel background */
+.search-lists-container {
+	background-color: white !important;
+	/*border-left: 1px solid #E5E5E5;*/
+}
+
+/* Search panel */
+.search-results,
+.message-list-results,
+.task-list-results,
+.public-search-results,
+.market-panel-results {
+	border-top: 0 none transparent !important;
+}
+.search-result-item,
+.market-panel-result {
+	border-bottom: 1px #dddddd solid !important;
+	background-color: #fafafa !important;
+	color: black !important;
+}
+	/* Unread item (or market item) */
+	.search-result-item.unread, .market-panel-result {
+		background-color: white !important;
+	}
+	/* Selected item */
+	.search-result-item.active,
+	.search-result-item.active .task-time-info,
+	.task-list-container .completed-task-list .search-result-item.active .task-time-info.overdue,
+	.market-panel-result.active {
+		/*background: rgba(24, 176, 178, 0.12) !important;*/
+		background: rgba(129, 192, 255, 0.12) !important;
+	}
+		.market-panel-container .active .title {
+			color: black !important;
+		}
+/* Snippet */
+.search-result-item.active .item-snippet,
+.market-panel-container .active .snippet {
+	color: #7D7D7D !important;
+}
+
+/* Unread meter */
+.unread-blips-indicator {
+	background: #eaeaea !important;
+}
+	.unread-blips-indicator > div {
+		background: #89e340 !important;
+	}
+
+/* Followed/Unfollowed/All menu */
+.search-query-container > .selectBox-dropdown {
+	background: #DAE4F6 !important;
+	border-radius: 2px !important;
+	color: #222 !important;
+	outline: none !important;
+}
+.selectBox-dropdown .selectBox-arrow {
+	-webkit-filter: brightness(0.2) !important;
+}
+.search-query-container > .selectBox-dropdown.selectBox-menuShowing {
+	background: #A6D7F5 !important;
+}
+
+/* Market tabs */
+.market-panel-container .market-items-filter {
+	position: relative !important;
+	top: 2px !important;
+	margin: 0px 2px !important;
+	padding: 12px 16px !important;
+	border-radius: 0 !important;
+	background: transparent !important;
+	text-transform: uppercase !important;
+}
+	.market-panel-container .market-items-filter:first-child {
+		margin-left: 20px !important;
+	}
+	.market-panel-container .market-items-filter.pressed {
+		border: 0 none transparent !important;
+		background-color: transparent !important;
+		/*font-weight: bold !important;*/
+	}
+		.market-panel-container .market-items-filter.pressed::after {
+			content: "";
+			position: absolute;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			height: 4px;
+			background-color: white;
+		}
+/* Left side tabs */
+.tabs-container .tab,
+/* Right side expand/collapse buttons */
+.right-tools-panel .hide-replies, .right-tools-panel .show-replies,
+/* Text/mind map view tabs */
+.right-tools-panel .text-view, .right-tools-panel .mindmap-view {
+	background-color: transparent !important;
+	color: black !important;
+	border-radius: 0 !important;
+	border: 0 none transparent !important;
+}
+.tabs-container .tab:not(.help-tab),
+.right-tools-panel .show-replies {
+	position: relative !important;
+}
+.right-tools-panel .text-view .description, .right-tools-panel .mindmap-view .description {
+	font-size: 10px !important;
+	font-weight: normal !important;
+}
+
+/* Left side tab icons */
+.tabs-container .tab .pict,
+/* Text/mind map view icons */
+.right-tools-panel .text-view .icon,
+.right-tools-panel .mindmap-view .icon {
+	-webkit-filter: saturate(0);
+}
+/* Left side active tab */
+.tabs-container .tab.active,
+/* Text/mind map view active tab */
+.right-tools-panel:not(.mindmap-view) .text-view,
+.mindmap-view.right-tools-panel .mindmap-view,
+.right-tools-panel:not(.mindmap-view) .text-view .description,
+.mindmap-view.right-tools-panel .mindmap-view .description {
+	background: transparent none !important;
+	color: #18b0b2 !important;
+}
+/* Left side active tab icon */
+.tabs-container .tab.active .pict {
+	-webkit-filter: hue-rotate(326deg) saturate(4) brightness(1.81);
+}
+
+
+/* Move text/mind map tabs */
+.active-blip-controls, .mindmap-view-switch-buttons {
+	top: 230px !important;
+}
+	/* Text/mind map view active tab icon */
+	.right-tools-panel:not(.mindmap-view) .text-view .icon,
+	.right-tools-panel.mindmap-view .mindmap-view .icon {
+		-webkit-filter: hue-rotate(326deg);
+	}
+		/* Active mind map tab line */
+		.right-tools-panel:not(.mindmap-view) .text-view::before,
+		.mindmap-view.right-tools-panel .mindmap-view::before {
+			content: "";
+			position: absolute;
+			left: 0;
+			top: 0;
+			bottom: 0;
+			width: 4px;
+			background-color: #18b0b2;
+		}
+
+.tabs-container .tab.topics {
+	padding-top: 9px !important;
+	margin-top: 64px !important;
+	height: 80px !important;
+}
+.tabs-container .tab:not(.locked) .pict, .tabs-container .topics-pict {
+	margin-top: 2px !important;
+	background-position-x: -37px !important
+}
+
+.right-tools-panel .show-replies::after {
+	content: "";
+	position: absolute;
+	left: 1px;
+	right: 0;
+	bottom: -4px;
+	width: 100%;
+	height: 1px;
+	background-color: #E5E5E5;
+}
+
+/* Profile pictures */
+.avatar,
+.avatar-variant,
+.contact-picker-participant {
+	border-radius: 50% !important;
+}
+	.avatar {
+		border: 0 none !important;
+	}
+	.account-popup .avatar {
+		overflow: visible;
+	}
+
+.show-more-participants .more-participants-image {
+	-webkit-filter: brightness(0) invert() !important;
+	        filter: brightness(0) invert() !important;
+}
+
+/* Keyboard shortcut list */
+#navigation-panel.tips-hidden .tips-box, #navigation-panel.first-visit.tips-hidden .tips-box {
+	height: 4px !important;
+}
+#navigation-panel.tips-hidden, #navigation-panel.tips-hidden.first-visit {
+	padding-bottom: 4px !important;
+}
+
+.tips-box {
+	height: 96px !important;
+}
+.tips-content {
+	padding-bottom: 0 !important;
+}
+#navigation-panel {
+	padding-bottom: 96px !important;
+}
+
+
+/* Right side expand/collapse buttons */
+.hide-replies, .show-replies,
+/* Right side blue buttons */
+.insert-reply, .insert-mention, .insert-task, .insert-tag,
+/* Rizzoma logo, LinkedIn button, and CWS link in search panel */
+.tips-head-container {
+	display: none !important;
+}

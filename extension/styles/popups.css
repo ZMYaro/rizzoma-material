@@ -1,0 +1,221 @@
+/* Menus */
+.account-popup .name-variants,
+.account-popup .email-variants,
+.blip-menu .other-blipmenu-container,
+.popup-menu-container, .ctm,
+.search-menu,
+.selectBox-dropdown-menu,
+/* Dialogs */
+.chrome-app-popup,
+.crowd-popup,
+.ctm .tooltip,
+.add-participant-block .add-form,
+.share-section .wave-share-popup,
+.tips-video-popup,
+.link-popup,
+.widget-window {
+	background-color: white !important;
+	border: 0 none !important;
+	border-radius: 2px !important;
+}
+	/* Menus only */
+	.account-popup .name-variants,
+	.account-popup .email-variants,
+	.blip-menu .other-blipmenu-container,
+	.popup-menu-container, .ctm,
+	.search-menu,
+	.selectBox-dropdown-menu {
+		box-shadow: rgba(0, 0, 0, 0.2) 0 8px 17px 0, rgba(0, 0, 0, 0.19) 0 6px 20px 0 !important;
+		padding: 4px 0 !important;
+	}
+	/* Dialogs only */
+	.chrome-app-popup,
+	.crowd-popup,
+	.ctm .tooltip,
+	.add-participant-block .add-form,
+	.share-section .wave-share-popup,
+	.tips-video-popup,
+	.link-popup,
+	.widget-window {
+		box-shadow: rgba(0, 0, 0, 0.24) 0 12px 15px 0, rgba(0, 0, 0, 0.19) 0 17px 50px 0 !important;
+		padding: 4px 8px !important;
+	}
+
+/* Internal containers */
+.add-participant-block .add-form .internal-container, .manage-participants-form .internal-container, .share-section .internal-container, .popup-menu-container .internal-container, .widget-window .widget-window-body, .account-popup .internal-container, .ctm .internal-container, .ctm .tooltip .internal-container, .chrome-app-popup .internal-container, .tips-video-popup .internal-container {
+	background-color: transparent !important;
+	border-color: transparent !important;
+}
+
+/* Search drop-down menu */
+.search-header .search-menu {
+	top: 4px !important;
+}
+
+/* New wave wizard */
+.ctm-left-arrow {
+	top: 28px !important;
+}
+.ctm-dont-show {
+	display: none !important;
+}
+
+/* Sharing settings */
+.sharing-section .description-text {
+	margin-top: 10px !important;
+}
+.sharing-section img {
+	display: none !important;
+}
+.sharing-section .description-icon {
+	width: 24px !important;
+	height: 24px !important;
+	margin: 4px 8px !important;
+	border: 0 none !important;
+	
+	background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAQAAABKfvVzAAAAlElEQVR4Ac3QTwqCYBCG8cfO4J87CWLlrYKOEkg3KK/SQi3CReHybTZCIA3fQqrfs513MyyhomG0zmwIsEfWYMnaga9C3MiJrII7osTVIHIma8QJ18hAxGTFgycuceFdixYbbLmiD/WUzNi5U8eM/H49OBCTUIcPYgDS8EECQBY+qEnJODqD/3xrj5xaZko657zga15GiO7RTPjIlQAAAABJRU5ErkJggg==') !important;
+}
+	.sharing-section.by-link .description-icon {
+		background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAQAAABKfvVzAAAAi0lEQVR4Ae3RPWrDQBSF0WMtzyBso0UFDNmTf7aSIkVwVEiovGnEKwbhJrjz+ZrbzGvG22sN7hZZQ+3FzUnjU8Toaw21RxFnlEH82NvZstN7iINyF3vPHMVVWYx1PU1AZzL/48FN9J4ZxEU5iYejzpbO4Lc9eRYx+V5D7UnEh8bB1bz5cbOL3iu9/QGK0F5cKivlMAAAAABJRU5ErkJggg==') !important;
+	}
+	.sharing-section.public .description-icon {
+		background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAQAAABKfvVzAAABDklEQVR4Ab3OwUpUYRjG8d8chjN3UkH3UFcQhaAoijvDCO/BSygYaNcFKHoTLQOJaK0cNKggWg4zBE+tvsP5+HDp7799H3g9uIVDlwYbG4MLBxbuseu7VN3Z0dT5IHWuRCx1as3zH2aOrMRSZbd5/gI8txLbjBbq36dei1u94lCqpma+iH3FpZT+/u+T2htxrhjERxHR9ljcKDZi7lTEfMyoF+vpoMepTPrcHjCIRzQmAE/EteJCHNOYALwVZ4oDcWUGyJg56HwTe4qFO3EE+CVjfnvlRAx6Izti5Rl46aeM+WMttlSWYuXYDKTqvZrOUsRXJ57KpHc6TdtupWqw5R69fedurK1dO7On98D+AQvP0ozhFhv6AAAAAElFTkSuQmCC') !important;
+	}
+/* Role selector popup fake menu items */
+.role-selector-popup {
+	//margin-left: 0 !important;
+}
+	.role-selector-popup .role {
+		background: none !important;
+		padding-right: 0 !important;
+		margin: 0 !important;
+	}
+		.role-selector-popup input[type="radio"] {
+			display: none !important;
+		}
+		.role-selector-popup .role label {
+			display: block !important;
+			padding-left: 32px !important;
+		}
+			.role-selector-popup .role label::before {
+				left: 10px !important;
+				top: 15px !important;
+			}
+
+/* Participant manager */
+.manage-participants-form .results-list li .participant-role {
+	padding-right: 16px !important;
+}
+	.manage-participants-form .results-list li:hover .participant-role {
+		color: inherit !important;
+	}
+.manage-participants-form .control-container .selectBox {
+	margin-left: -12px !important;
+}
+.manage-participants-form .control-container button {
+	margin: 0 !important;
+}
+
+/* Errors, warnings, and status indicators */
+.search-lists-container .status-bar, .wave-error, .wave-warning, .error-message-container, .wave-loading-indicator {
+	background: #F9EDBE !important;
+	border: 1px solid #F0C36D !important;
+	border-radius: 2px !important;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.2) !important;
+	color: #222 !important;
+	padding: 0 10px !important;
+}
+.search-lists-container .status-bar {
+	width: auto !important;
+	left: 1% !important;
+	right: 1% !important;
+}
+
+/* Text input boxes */
+input[type="text"],
+textarea,
+.account-merge-form-container .secondary-email-input,
+.add-form .internal-container,
+.copy-blip-link input,
+.input-email,
+.link-name div,
+.manage-participants-form .showing-participants-id,
+.outer-input,
+.share-section .wave-url,
+.skype-id-input,
+.text-input,
+input[type="search"],
+.message-list-query,
+.public-search-query,
+.search-query,
+.task-list-query {
+	-webkit-appearance: none;
+	background: transparent;
+	border: 0px none !important;
+	border-bottom: 1px solid #757575 !important;
+	border-radius: 0 !important;
+	outline: 0 none;
+	padding: 4px 0 !important;
+}
+	input[type="text"]:focus,
+	textarea:focus,
+	.account-merge-form-container .secondary-email-input:focus,
+	.add-form:focus .internal-container,
+	.copy-blip-link input:focus,
+	.input-email:focus,
+	.link-name div:focus,
+	.manage-participants-form .showing-participants-id:focus,
+	.outer-input:focus,
+	.share-section .wave-url:focus,
+	.skype-id-input:focus,
+	.text-input:focus,
+	input[type="search"]:focus,
+	.message-list-query:focus,
+	.public-search-query:focus,
+	.search-query:focus,
+	.task-list-query:focus {
+		padding-bottom: 3px !important;
+		border-bottom: 2px solid #78bcff !important;
+	}
+
+	.add-form .input-email-container {
+		padding: 0 8px !important;
+	}
+
+/* The search boxes for different left tabs */
+input[type="search"],
+input.message-list-query,
+input.public-search-query,
+input.search-query,
+input.task-list-query {
+	color: white !Important;
+	border: 0 none !important;
+	border-radius: 2px !important;
+	background-color: rgba(255, 255, 255, 0.25) !important;
+	padding-left: 8px !important;
+	padding-right: 76px !important;
+}
+	input[type="search"]::-webkit-input-placeholder,
+	input.message-list-query::-webkit-input-placeholder,
+	input.public-search-query::-webkit-input-placeholder,
+	input.search-query::-webkit-input-placeholder,
+	input.task-list-query::-webkit-input-placeholder {
+		color: rgba(255, 255, 255, 0.8) !important;
+	}
+	input[type="search"]:focus,
+	input.message-list-query:focus,
+	input.public-search-query:focus,
+	input.search-query:focus,
+	input.task-list-query:focus {
+		color: black !important;
+		border: 0 none !important;
+		background-color: white !important;
+		box-shadow: rgba(0, 0, 0, 0.26) 0 2px 5px 0, rgba(0, 0, 0, 0.16) 0 2px 10px 0 !important;
+	}
+		input[type="search"]:focus::-webkit-input-placeholder,
+		input.message-list-query:focus::-webkit-input-placeholder,
+		input.public-search-query:focus::-webkit-input-placeholder,
+		input.search-query:focus::-webkit-input-placeholder,
+		input.task-list-query:focus::-webkit-input-placeholder {
+			color: rgba(0, 0, 0, 0.5) !important;
+		}
