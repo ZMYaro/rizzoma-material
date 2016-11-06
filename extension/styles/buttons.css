@@ -328,17 +328,15 @@ a.button-like,
 		background-repeat: no-repeat;
 		background-size: 20px 20px;
 	}
-		input:focus + .search-icon::before,
-		input:focus + div + .search-icon::before,
-		input:focus + div + div + .search-icon::before {
+		input:focus ~ .search-icon::before {
 			background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDAwMDAwIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xNS41IDE0aC0uNzlsLS4yOC0uMjdDMTUuNDEgMTIuNTkgMTYgMTEuMTEgMTYgOS41IDE2IDUuOTEgMTMuMDkgMyA5LjUgM1MzIDUuOTEgMyA5LjUgNS45MSAxNiA5LjUgMTZjMS42MSAwIDMuMDktLjU5IDQuMjMtMS41N2wuMjcuMjh2Ljc5bDUgNC45OUwyMC40OSAxOWwtNC45OS01em0tNiAwQzcuMDEgMTQgNSAxMS45OSA1IDkuNVM3LjAxIDUgOS41IDUgMTQgNy4wMSAxNCA5LjUgMTEuOTkgMTQgOS41IDE0eiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4=);
 		}
 .clear-search-query-button,
 .show-search-menu-button {
 	-webkit-filter: invert() brightness(2);
 }
-	input:focus + .clear-search-query-button,
-	input:focus + div + .show-search-menu-button {
+	input:focus ~ .clear-search-query-button,
+	input:focus ~ .show-search-menu-button {
 		-webkit-filter: none;
 	}
 
