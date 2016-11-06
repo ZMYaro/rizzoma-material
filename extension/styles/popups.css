@@ -17,6 +17,7 @@
 	background-color: white !important;
 	border: 0 none !important;
 	border-radius: 2px !important;
+	z-index: 6;
 }
 	/* Menus only */
 	.account-popup .name-variants,
@@ -49,7 +50,9 @@
 
 /* Search drop-down menu */
 .search-header .search-menu {
-	top: 4px !important;
+	top: 0px !important;
+	 border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
 }
 
 /* New wave wizard */
