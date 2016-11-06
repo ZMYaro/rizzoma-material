@@ -1,5 +1,6 @@
 .wave-content {
 	position: absolute !important;
+	width: 100% !important;
 }
 
 .blips-container {

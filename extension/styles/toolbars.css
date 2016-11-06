@@ -154,6 +154,7 @@
 		}
 
 /* Gear menu contents */
+.blip-menu .other-blipmenu-container > .list-menu-button,
 .blip-container .blip-menu .other-blipmenu-container > .list-menu-button {
 	background: none !important;
 }
