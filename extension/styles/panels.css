@@ -1,5 +1,6 @@
 /* Remove shadows */
-.navigation-container, .wave-container {
+.navigation-container,
+.wave-container {
 	box-shadow: none !important;
 }
 /*.wave-container {
