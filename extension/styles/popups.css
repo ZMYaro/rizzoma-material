@@ -222,3 +222,27 @@ input.task-list-query {
 		input.task-list-query:focus::-webkit-input-placeholder {
 			color: rgba(0, 0, 0, 0.5) !important;
 		}
+
+
+/* Hashtag and @mention inputs */
+.recipient-input-container,
+.tag-input-container {
+	background-color: #eaeaea !important;
+	border-color: white !important;
+	padding: 0 3px !important;
+	font-size: 14px !important;
+	font-weight: normal !important;
+}
+
+input.recipient-input[type="text"],
+input.tag-input[type="text"] {
+	margin: 0 !important;
+	font-size: inherit !important;
+	border: 0 none !important;
+}
+	input.recipient-input {
+		padding-left: 1em !important;
+	}
+	input.tag-input {
+		padding-left: 0.57em !important;
+	}
