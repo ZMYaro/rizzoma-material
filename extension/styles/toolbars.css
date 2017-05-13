@@ -1,6 +1,7 @@
 /* Blip toolbars */
 .blip-menu-container {
 	border-radius: 2px !important;
+	z-index: 3 !important;
 }
 	.blip-menu-container.fixed {
 		top: 49px !important;
