@@ -12,6 +12,7 @@ a.button-like,
 .show-settings-button,
 .task-recipient-popup button,
 .wave-share-button,
+.playback-topic-container .wave-panel .blip-menu .playback-menu button,
 /* Tabs */
 .tabs-container .tab,
 .right-tools-panel .hide-replies,
@@ -78,6 +79,7 @@ a.button-like,
 	.show-settings-button,
 	.task-recipient-popup button,
 	.wave-share-button,
+	.playback-topic-container .wave-panel .blip-menu .playback-menu button,
 	
 	.market-panel-container .market-items-filter {
 		color: white !important;
@@ -98,6 +100,8 @@ a.button-like,
 		.task-recipient-popup button:enabled:focus,
 		.wave-share-button:enabled:hover,
 		.wave-share-button:enabled:focus,
+		.playback-topic-container .wave-panel .blip-menu .playback-menu button:enabled:hover,
+		.playback-topic-container .wave-panel .blip-menu .playback-menu button:enabled:focus,
 		
 		.market-panel-container .market-items-filter:hover,
 		.market-panel-container .market-items-filter:focus {
@@ -111,6 +115,7 @@ a.button-like,
 		.show-settings-button:enabled:active,
 		.task-recipient-popup button:enabled:active,
 		.wave-share-button:enabled:active,
+		.playback-topic-container .wave-panel .blip-menu .playback-menu button:enabled:active,
 		
 		.market-panel-container .market-items-filter:active {
 			background: rgba(255, 255, 255, 0.4) !important;
@@ -209,7 +214,8 @@ a.button-like,
 	.bottom-blip-menu .blip-reply-button:disabled,
 	.delete-from-wave:disabled,
 	.manage-participants-form button:disabled,
-	.other-blipmenu-container .list-menu-button button:disabled {
+	.other-blipmenu-container .list-menu-button button:disabled,
+	.playback-topic-container .wave-panel .blip-menu .playback-menu button:disabled {
 		opacity: 0.3 !important;
 		cursor: default !important;
 		cursor: not-allowed !important;

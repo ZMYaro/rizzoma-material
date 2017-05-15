@@ -20,7 +20,8 @@ body, .tabs-container, .right-tools-panel {
 .market-panel-header,
 .resizer,
 .wave-header,
-.account-container {
+.account-container,
+.playback-topic-container .wave-panel {
 	background: #18b0b2 !important;
 	border-bottom: 0 none !important;
 	box-sizing: border-box;
@@ -43,7 +44,8 @@ body, .tabs-container, .right-tools-panel {
 	.market-panel-header::after,
 	.resizer::after,
 	.wave-header::after,
-	.account-container::after {
+	.account-container::after,
+	..playback-topic-container .wave-panel::after {
 		content: '';
 		position: absolute;
 		left: 0;
@@ -284,4 +286,29 @@ body, .tabs-container, .right-tools-panel {
 /* Rizzoma logo, LinkedIn button, and CWS link in search panel */
 .tips-head-container {
 	display: none !important;
+}
+
+
+/* Playback panel */
+.playback-topic-container .wave-panel {
+	top: -50px !important;
+	height: 50px !important;
+}
+	.playback-topic-container .wave-panel .blip-menu,
+	.playback-topic-container .wave-panel .blip-menu .playback-menu {
+		width: 100% !important;
+		height: 100% !important;
+		box-shadow: none !important;
+	}
+		.playback-topic-container .wave-panel .blip-menu .playback-menu {
+			padding-top: 10px !important;
+		}
+			.playback-topic-container .wave-panel .blip-menu .playback-menu button {
+				border-radius: 0 !important;
+			}
+.playback-topic-container .wave-content {
+	padding-top: 50px !important;
+}
+.resizer.playback {
+	height: 48px !important;
 }
