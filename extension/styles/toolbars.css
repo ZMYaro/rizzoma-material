@@ -71,7 +71,17 @@
 	}
 .bottom-blip-menu .finish-edit-button {
 	border-bottom-left-radius: 2px !important;
+	width: 116px !important;
 }
+	.bottom-blip-menu .finish-edit-button::after {
+		content: '(Shift+Enter)';
+		color: rgba(255, 255, 255, 0.75);
+		font-size: 85%;
+		display: inline-block;
+		vertical-align: top;
+		margin-top: 1px;
+		margin-left: 0.5em;
+	}
 	.blip-container:not(:last-child) > .bottom-blip-menu .finish-edit-button {
 		border-radius: 2px !important;
 		box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1), 0 0 2px 0 rgba(0, 0, 0, 0.1) !important;
@@ -114,7 +124,7 @@
 			background: linear-gradient(rgba(239, 239, 239, 0) 30%, rgba(239, 239, 239, 1) 80%) !important;
 		}
 		.blip-container.active.edit-mode .bottom-blip-menu .blip-reply-button div.gradient {
-			left: 54px !important;
+			left: 120px !important; /* “Done” button offset + 4 */
 		}
 	.bottom-blip-menu .blip-reply-button div.text {
 		color: #999 !important;
@@ -125,9 +135,13 @@
 		left: 5px !important;
 		right: auto !important;
 	}
-.blip-container.active.edit-mode .bottom-blip-menu .blip-reply-button div.avatar {
-	left: 55px !important;
+.blip-container.active.edit-mode .bottom-blip-menu .blip-reply-button {
+	padding-left: 116px; /* “Done” button offset */
+	margin-left: -116px;
 }
+	.blip-container.active.edit-mode .bottom-blip-menu .blip-reply-button div.avatar {
+		left: 121px !important; /* “Done” button offset + 5 */
+	}
 
 /* Toolbar buttons/icons */
 .blip-menu .icon-button {
