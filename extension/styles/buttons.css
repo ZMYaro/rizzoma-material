@@ -4,6 +4,7 @@ a.button-like,
 .account-button,
 .add-block-button,
 .bottom-blip-menu .blip-reply-button,
+.ctm-create-topic,
 .delete-from-wave,
 .manage-participants-form button,
 .mention-recipient-popup button,
@@ -21,6 +22,7 @@ a.button-like,
 .right-tools-panel .mindmap-view,
 .market-panel-container .market-items-filter,
 /* Menu items */
+.contact-picker-contact-item,
 .help-menu a,
 .results-list li,
 .role-selector-popup .role label,
@@ -45,6 +47,7 @@ a.button-like,
 	.account-button,
 	.add-block-button,
 	.bottom-blip-menu .blip-reply-button,
+	.ctm-create-topic,
 	.delete-from-wave,
 	.manage-participants-form button,
 	.mention-recipient-popup button,
@@ -57,6 +60,7 @@ a.button-like,
 		text-transform: uppercase !important;
 	}
 	/* Menu items only */
+	.contact-picker-contact-item,
 	.help-menu a,
 	.results-list li,
 	.role-selector-popup .role label,
@@ -133,6 +137,7 @@ a.button-like,
 	.right-tools-panel .text-view,
 	.right-tools-panel .mindmap-view,
 	
+	.contact-picker-contact-item,
 	.help-menu a,
 	.results-list li,
 	.role-selector-popup .role label,
@@ -165,6 +170,9 @@ a.button-like,
 		.right-tools-panel .mindmap-view:hover,
 		.right-tools-panel .mindmap-view:focus,
 		
+		.contact-picker-contact-item:hover,
+		.contact-picker-contact-item:focus,
+		.contact-picker-contact-item.active,
 		.help-menu a:hover,
 		.help-menu a:focus,
 		.results-list li:hover,
@@ -197,6 +205,7 @@ a.button-like,
 		.right-tools-panel .text-view:active,
 		.right-tools-panel .mindmap-view:active,
 		
+		.contact-picker-contact-item:active,
 		.help-menu a:active,
 		.results-list li:active,
 		.role-selector-popup .role label:active,
@@ -212,6 +221,8 @@ a.button-like,
 	a.button-like.selectBox-disabled,
 	:not(.range-menu) > .button:disabled,
 	.bottom-blip-menu .blip-reply-button:disabled,
+	.create-wave:disabled,
+	.ctm-create-topic:disabled,
 	.delete-from-wave:disabled,
 	.manage-participants-form button:disabled,
 	.other-blipmenu-container .list-menu-button button:disabled,
@@ -249,12 +260,12 @@ a.button-like,
 	.common-create-wave-by-wizard:enabled:focus,
 	.create-wave-by-wizard:enabled:hover,
 	.create-wave-by-wizard:enabled:focus {
-		background: #81c0ff !important;
+		background: hsl(210, 100%, 76%) !important;
 		box-shadow: rgba(0, 0, 0, 0.22) 0 10px 16px 0, rgba(0, 0, 0, 0.19) 0 11px 35px 0 !important;
 	}
 	.common-create-wave-by-wizard:enabled:active,
 	.create-wave-by-wizard:enabled:active {
-		background: #89c4ff !important;
+		background: hsl(210, 100%, 79%) !important;
 		box-shadow: rgba(0, 0, 0, 0.24) 0 12px 15px 0, rgba(0, 0, 0, 0.19) 0 17px 50px 0 !important;
 	}
 	.common-create-wave-by-wizard::before,
@@ -270,6 +281,32 @@ a.button-like,
 	.new-topic-buttons .create-wave,
 	.ctm-create-button {
 		display: none !important;
+	}
+	
+	/* Hide digits. */
+	.ctm-title,
+	.ctm-add-participant,
+	.ctm .create-button {
+		margin-left: 16px !important;
+	}
+	.ctm .digit {
+		width: 1px !important;
+		overflow: hidden !important;
+	}
+		.digit3 {
+			height: 10px !important;
+		}
+
+/* New wave wizard create button */
+.ctm-create-topic {
+	background: #78bcff !important;
+}
+	.ctm-create-topic:enabled:hover,
+	.ctm-create-topic:enabled:focus {
+		background: hsl(210, 100%, 76%) !important;
+	}
+	.ctm-create-topic:enabled:active {
+		background: hsl(210, 100%, 79%) !important;
 	}
 
 /* Top-right account button */
