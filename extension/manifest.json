@@ -24,7 +24,7 @@
 			"styles/wave.css"
 		],
 		"js": [
-			"scripts/placeholders.js"
+			"scripts/labels.js"
 		]
 	}]
 }
