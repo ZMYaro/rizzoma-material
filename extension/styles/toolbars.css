@@ -1,3 +1,8 @@
+/* Tips bar */
+.topic-tip {
+	display: none !important;
+}
+
 /* Blip toolbars */
 .blip-menu-container {
 	border-radius: 2px !important;
