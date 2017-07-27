@@ -46,5 +46,8 @@ function setParticipantSearch() {
 	document.querySelector('.show-more-participants').addEventListener('click', function () {
 		document.querySelector('.showing-participants-id').placeholder = 'Search people on this wave';
 	}, false);
+	
+	document.querySelector('.js-saving-message-saving').textContent = 'Saving...';
+	document.querySelector('.js-saving-message-saved').textContent = 'Saved \u2714';
 }
 setParticipantSearch();
