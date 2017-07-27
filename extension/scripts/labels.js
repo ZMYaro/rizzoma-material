@@ -36,18 +36,14 @@ document.querySelector('.create-wave-by-wizard, .common-create-wave-by-wizard').
 
 
 
-
 // Wave panel
-var i = 0;
 function setParticipantSearch() {
 	if (!document.querySelector('.show-more-participants')) {
 		requestAnimationFrame(setParticipantSearch);
-		console.log('loop' + (++i));
 		return;
 	}
 	document.querySelector('.show-more-participants').title = 'Manage people with access';
 	document.querySelector('.show-more-participants').addEventListener('click', function () {
-		
 		document.querySelector('.showing-participants-id').placeholder = 'Search people on this wave';
 	}, false);
 }
