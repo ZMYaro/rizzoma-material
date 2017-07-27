@@ -387,6 +387,12 @@ a.button-like,
 	}
 
 /* Wave panel share button */
+.share-section {
+	position: absolute !important;
+	right: 40px !important;
+	top: 9px !important;
+	margin: 0 !important;
+}
 .wave-share-button {
 	padding-left: 8px !important;
 	padding-right: 8px !impontant;
