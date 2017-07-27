@@ -369,12 +369,22 @@ a.button-like,
 
 /* Wave panel share button */
 .wave-share-button {
-	padding-left: 32px !important;
+	padding-left: 8px !important;
+	padding-right: 8px !impontant;
 	width: auto !important;
 }
 	.wave-share-button .lock {
+		position: static !important;
+		vertical-align: top !important;
 		height: 18px !important;
+		margin-top: -2px !important;
+		margin-bottom: -2px !important;
+		margin-right: 4px !important;
 		background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAABXCAMAAADPjr43AAAAYFBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////98JRy6AAAAH3RSTlMAwPot5K55gBNWFQgEP7uaciKQhDTv3dOon4tJS7NgO83+ZQAAAR5JREFUSMft0duOgyAQgOFhBqnWA2rVVm077/+Wy4LJqoDJ7tWm8b8wIZ8IAnx2BXVFFGfJLOcIElZlWSGFVcscIJc6rFUCplcVVmE1ESGbkJdw8tWhY195VUSH4UArs/G4mu20ce3f7z6mrr+o/MHB10ZdllQDZ/+1a6ZUlkZsRDbheA0gSba9UJI/c8E+JSm92aO1ujTLEur9VLRa2kGL6VYz7plVndtBx9lWFTeSCxOYclZ7zQ2bkAKacQeOy8CXU2wBZqf+rmBEgoa/kxlq/zQkQTk4TwMniW0nLFLoFrS7BR25pdTd4NnZtudDCEFkHo+nhze+J0lCZB53vu2Q+LJ+k7ZaYwEgbAA51r9RWq81MR3t6nL0RzOchfoCTMEe47zJ9ogAAAAASUVORK5CYII=') !important;
+	}
+	.wave-share-button.gdrive .gdrive-icon16 {
+		position: static !important;
+		margin-top: -1px !important;
 	}
 
 /* Wave panel gear button container (made to look like a button) */
