@@ -389,7 +389,11 @@ a.button-like,
 
 /* Wave panel gear button container (made to look like a button) */
 .settings-section {
+	/* Use position: absolute instead of float: right so the “Saving topic...” message does not push it down. */
 	margin-top: 0 !important;
+	position: absolute !important;
+	right: 0 !important;
+	top: 8px !important;
 }
 	/* Wave panel gear button */
 	.show-settings-button {
