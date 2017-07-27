@@ -51,3 +51,8 @@ function setParticipantSearch() {
 	document.querySelector('.js-saving-message-saved').textContent = 'Saved \u2714';
 }
 setParticipantSearch();
+// Must use jQuery version to add a popstate listener to Rizzoma.
+document.body.setAttribute('onmousemove',
+	'console.log(\'mouse moved!!!!!!\'); $(window).on(\'popstate\', ' +
+	setParticipantSearch.toString() +
+	'); document.body.removeAttribute(\'onmousemove\');');
