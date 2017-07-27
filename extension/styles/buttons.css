@@ -4,6 +4,7 @@ a.button-like,
 .account-button,
 .add-block-button,
 .bottom-blip-menu .blip-reply-button,
+.create-wave,
 .ctm-create-topic,
 .delete-from-wave,
 .manage-participants-form button,
@@ -47,6 +48,7 @@ a.button-like,
 	.account-button,
 	.add-block-button,
 	.bottom-blip-menu .blip-reply-button,
+	.create-wave,
 	.ctm-create-topic,
 	.delete-from-wave,
 	.manage-participants-form button,
@@ -128,6 +130,7 @@ a.button-like,
 	a.button-like,
 	:not(.range-menu) > .button,
 	.bottom-blip-menu .blip-reply-button,
+	.create-wave,
 	.delete-from-wave,
 	.manage-participants-form button,
 	
@@ -307,6 +310,22 @@ a.button-like,
 	}
 	.ctm-create-topic:enabled:active {
 		background: hsl(210, 100%, 79%) !important;
+	}
+
+/* Empty wave panel new wave button */
+.create-wave {
+	background: #fafafa !important;
+	box-shadow: rgba(0, 0, 0, 0.26) 0 2px 5px 0, rgba(0, 0, 0, 0.16) 0 2px 10px 0 !important;
+	transition-duration: 0.1s;
+}
+	.create-wave:enabled:hover,
+	.create-wave:enabled:focus {
+		background: #ffffff !important;
+		box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.23), 0 4px 15px 0 rgba(0, 0, 0, 0.175) !important;
+	}
+	.create-wave:enabled:active {
+		background: #f0f0f0 !important;
+		box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
 	}
 
 /* Top-right account button */
