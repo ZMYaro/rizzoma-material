@@ -254,6 +254,16 @@ body, .tabs-container, .right-tools-panel {
 	.account-popup .avatar {
 		overflow: visible;
 	}
+/* Wave panel participants */
+.participants {
+	height: 40px !important;
+	margin-top: -4px !important;
+}
+	.participants .wave-participant {
+		background-size: cover !important;
+		width: 40px !important;
+		height: 40px !important;
+	}
 
 .show-more-participants .more-participants-image {
 	-webkit-filter: brightness(0) invert() !important;
