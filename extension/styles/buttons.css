@@ -322,6 +322,32 @@ a.button-like,
 		margin-bottom: 0 !important;
 	}
 
+/* Wave panel participant settings button */
+.show-more-participants {
+	padding-left: 4px !important;
+	padding-right: 4px !important;
+}
+	.show-more-participants.number-shown {
+		padding-left: 4px !important;
+	}
+	.show-more-participants .more-participants-image {
+		margin-left: 4px !important;
+		margin-right: 4px !important;
+		/*
+		width: 24px !important;
+		height: 24px !important;
+		margin-left: 2px !important;
+		margin-right: 2px !important;
+		margin-top: -1px !important;
+		background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0ZGRkZGRiI+PHBhdGggZD0iTTIzLjksMTguMmwtMC44LTAuNmMwLTAuMSwwLTAuMiwwLTAuNHMwLTAuMiwwLTAuNGwwLjgtMC42YzAuMS0wLjEsMC4xLTAuMiwwLTAuMmwtMC44LTEuM2MwLTAuMS0wLjEtMC4xLTAuMi0wLjFMMjIuMSwxNQ0KCWMtMC4yLTAuMi0wLjQtMC4zLTAuNi0wLjRsLTAuMS0xYzAtMC4xLTAuMS0wLjItMC4yLTAuMmgtMS41Yy0wLjEsMC0wLjIsMC4xLTAuMiwwLjJsLTAuMSwxYy0wLjIsMC4xLTAuNCwwLjItMC42LDAuNGwtMC45LTAuNA0KCWMtMC4xLDAtMC4yLDAtMC4yLDAuMUwxNi43LDE2YzAsMC4xLDAsMC4yLDAsMC4ybDAuOCwwLjZjMCwwLjEsMCwwLjIsMCwwLjRzMCwwLjIsMCwwLjRsLTAuOCwwLjZjLTAuMSwwLjEtMC4xLDAuMiwwLDAuMmwwLjgsMS4zDQoJYzAsMC4xLDAuMSwwLjEsMC4yLDAuMWwwLjktMC40YzAuMiwwLjIsMC40LDAuMywwLjYsMC40bDAuMSwxYzAsMC4xLDAuMSwwLjIsMC4yLDAuMmgxLjVjMC4xLDAsMC4yLTAuMSwwLjItMC4ybDAuMS0xDQoJYzAuMi0wLjEsMC40LTAuMiwwLjYtMC40bDAuOSwwLjRjMC4xLDAsMC4yLDAsMC4yLTAuMWwwLjgtMS4zQzI0LDE4LjQsMjQsMTguMywyMy45LDE4LjJ6IE0yMC4zLDE4LjRjLTAuNiwwLTEuMS0wLjUtMS4xLTEuMQ0KCXMwLjUtMS4xLDEuMS0xLjFjMC42LDAsMS4xLDAuNSwxLjEsMS4xUzIxLDE4LjQsMjAuMywxOC40eiIvPjxlbGxpcHNlIGN4PSI4IiBjeT0iOCIgcng9IjMiIHJ5PSIzIi8+PGVsbGlwc2UgY3g9IjE2IiBjeT0iOCIgcng9IjMiIHJ5PSIzIi8+PHBhdGggZD0iTTgsMTNjMC4zLDAsMC42LDAsMSwwYy0xLjIsMC44LTIsMi0yLDMuNVYxOUgxdi0yLjVDMSwxNC4yLDUuNywxMyw4LDEzeiIvPjxwYXRoIGQ9Ik0xNSwxOUg5di0yLjVjMC0yLjMsNC43LTMuNSw3LTMuNWMwLjIsMCwwLjQsMCwwLjYsMGMtMS4yLDEtMS45LDIuNS0xLjksNC4yQzE0LjcsMTcuOSwxNC44LDE4LjQsMTUsMTl6Ii8+PC9zdmc+) !important;
+		*/
+	}
+	.show-more-participants.number-shown .more-participants-image {
+		/* Always show the icon */
+		display: inline-block !important;
+		margin-right: 2px !important;
+	}
+
 /* Wave panel share button */
 .wave-share-button {
 	padding-left: 32px !important;

@@ -1,5 +1,9 @@
 // Search panel
 
+// Sidebar
+document.querySelector('.topics.tab').innerHTML =
+	document.querySelector('.topics.tab').innerHTML.replace('Topics', 'Inbox');
+
 // Inbox search.
 document.getElementById('js-search-query').placeholder = 'Search your waves';
 
@@ -32,6 +36,19 @@ document.querySelector('.create-wave-by-wizard, .common-create-wave-by-wizard').
 
 
 
-// Sidebar
-document.querySelector('.topics.tab').innerHTML =
-	document.querySelector('.topics.tab').innerHTML.replace('Topics', 'Inbox');
+
+// Wave panel
+var i = 0;
+function setParticipantSearch() {
+	if (!document.querySelector('.show-more-participants')) {
+		requestAnimationFrame(setParticipantSearch);
+		console.log('loop' + (++i));
+		return;
+	}
+	document.querySelector('.show-more-participants').title = 'Manage people with access';
+	document.querySelector('.show-more-participants').addEventListener('click', function () {
+		
+		document.querySelector('.showing-participants-id').placeholder = 'Search people on this wave';
+	}, false);
+}
+setParticipantSearch();
