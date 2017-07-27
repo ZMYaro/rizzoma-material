@@ -20,18 +20,18 @@ if (document.getElementById('js-task-list-query')) {
 
 
 
-// New wave
+// New wave buttons
 
 // Empty wave panel
-if (document.querySelector('.message-container')) {
-	document.querySelector('.message-container > div').innerHTML = 'Select wave from list or create new wave';
-	document.querySelector('.message-container > .create-wave').innerHTML = 'Create new wave';
+if (document.querySelector('.message-container > .create-wave')) {
+	document.querySelector('.message-container > div').textContent = 'Select wave from list or create new wave';
+	document.querySelector('.message-container > .create-wave').textContent = 'Create new wave';
 }
 
 // New wave wizard
 document.querySelector('.create-wave-by-wizard, .common-create-wave-by-wizard').title = 'Create new wave';
 document.querySelector('.create-wave-by-wizard, .common-create-wave-by-wizard').addEventListener('click', function () {
-	document.querySelector('.ctm-create-topic').innerHTML = 'Create new wave';
+	document.querySelector('.ctm-create-topic').textContent = 'Create new wave';
 }, false);
 
 
