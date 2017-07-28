@@ -271,10 +271,6 @@ body, .tabs-container, .right-tools-panel {
 }
 
 /* Keyboard shortcut list */
-.folded-tips-video {
-	/* Hide the video link since it is also in the new wave wizard */
-	display: none !important;
-}
 .tips-box {
 	height: 56px !important;
 }
@@ -292,13 +288,14 @@ body, .tabs-container, .right-tools-panel {
 	padding-bottom: 4px !important;
 }
 
-
 /* Right side expand/collapse buttons */
 .hide-replies, .show-replies,
 /* Right side blue buttons */
 .insert-reply, .insert-mention, .insert-task, .insert-tag,
 /* Rizzoma logo, LinkedIn button, and CWS link in search panel */
-.tips-head-container {
+.tips-head-container,
+/* Hide the video link since it is also in the new wave wizard */
+.folded-tips-video {
 	display: none !important;
 }
 
