@@ -29,10 +29,12 @@ if (document.querySelector('.message-container > .create-wave')) {
 }
 
 // New wave wizard
-document.querySelector('.create-wave-by-wizard, .common-create-wave-by-wizard').title = 'Create new wave';
-document.querySelector('.create-wave-by-wizard, .common-create-wave-by-wizard').addEventListener('click', function () {
-	document.querySelector('.ctm-create-topic').textContent = 'Create new wave';
-}, false);
+if (document.querySelector('.create-wave-by-wizard, .common-create-wave-by-wizard')) {
+	document.querySelector('.create-wave-by-wizard, .common-create-wave-by-wizard').title = 'Create new wave';
+	document.querySelector('.create-wave-by-wizard, .common-create-wave-by-wizard').addEventListener('click', function () {
+		document.querySelector('.ctm-create-topic').textContent = 'Create new wave';
+	}, false);
+}
 
 
 
@@ -50,9 +52,13 @@ function setParticipantSearch() {
 	document.querySelector('.js-saving-message-saving').textContent = 'Saving...';
 	document.querySelector('.js-saving-message-saved').textContent = 'Saved \u2714';
 }
-setParticipantSearch();
-// Must use jQuery version to add a popstate listener to Rizzoma.
-document.body.setAttribute('onmousemove',
-	'console.log(\'mouse moved!!!!!!\'); $(window).on(\'popstate\', ' +
-	setParticipantSearch.toString() +
-	'); document.body.removeAttribute(\'onmousemove\');');
+
+try {
+	setParticipantSearch();
+} catch (err) {
+	// Must use jQuery version to add a popstate listener to Rizzoma.
+	document.body.setAttribute('onmousemove',
+		'console.log(\'mouse moved!!!!!!\'); $(window).on(\'popstate\', ' +
+		setParticipantSearch.toString() +
+		'); document.body.removeAttribute(\'onmousemove\');');
+}
