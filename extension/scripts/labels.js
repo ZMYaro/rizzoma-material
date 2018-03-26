@@ -58,7 +58,7 @@ try {
 } catch (err) {
 	// Must use jQuery version to add a popstate listener to Rizzoma.
 	document.body.setAttribute('onmousemove',
-		'console.log(\'mouse moved!!!!!!\'); $(window).on(\'popstate\', ' +
+		'$(window).on(\'popstate\', ' +
 		setParticipantSearch.toString() +
 		'); document.body.removeAttribute(\'onmousemove\');');
 }
