@@ -283,12 +283,21 @@ a.button-like,
 	.common-create-wave-by-wizard::before,
 	.create-wave-by-wizard::before,
 	.create-gdrive-wave.button::before {
-		content: '+';
-		color: white;
-		font-size: 36px;
+		content: '';
 		position: relative;
 		top: 1px;
 	}
+		.common-create-wave-by-wizard::before,
+		.create-wave-by-wizard::before {
+			content: '+';
+			color: white;
+			font-size: 36px;
+		}
+		.create-gdrive-wave.button::before {
+			background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyNHB4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIGZpbGw9IiNmZmZmZmYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTcuNzEgMy41MkwxLjE1IDE1bDMuNDIgNS45OSA2LjU2LTExLjQ3LTMuNDItNnpNMTMuMzUgMTVIOS43M0w2LjMgMjFoOC4yNGMtLjk2LTEuMDYtMS41NC0yLjQ2LTEuNTQtNCAwLS43LjEzLTEuMzcuMzUtMnpNMjAgMTZ2LTNoLTJ2M2gtM3YyaDN2M2gydi0zaDN2LTJoLTN6bS43MS00Ljc1TDE1LjQyIDJIOC41OHYuMDFsNi4xNSAxMC43N0MxNS44MiAxMS42OCAxNy4zMyAxMSAxOSAxMWMuNTkgMCAxLjE3LjA5IDEuNzEuMjV6Ij48L3BhdGg+PC9zdmc+');
+			width: 24px;
+			height: 24px;
+		}
 	.common-create-wave-by-wizard div,
 	.create-wave-by-wizard div,
 	.create-gdrive-wave div,
